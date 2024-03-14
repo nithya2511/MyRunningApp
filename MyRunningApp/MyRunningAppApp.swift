@@ -11,7 +11,7 @@ import SwiftUI
 struct MyRunningAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView(selectedTab: .run)
         }
     }
 }
